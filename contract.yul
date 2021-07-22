@@ -65,7 +65,7 @@ object "Proxy" {
       }
     }
 
-    data "name" hex"56656761f09f9492" // Vega🔒
+    data "name" "Locked Vega"
     data "symbol" hex"56454741f09f9492" // VEGA🔒
   }
 }
