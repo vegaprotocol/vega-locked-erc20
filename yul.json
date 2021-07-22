@@ -1,0 +1,32 @@
+{
+  "language": "Yul",
+  "sources":
+  {
+    "contract.yul": {
+      "urls": [
+        "./contract.yul"
+      ]
+    }
+  },
+  "settings":
+  {
+    "optimizer": {
+      "enabled": true
+    },
+    "evmVersion": "berlin",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "metadata",
+          "evm.bytecode",
+          "evm.bytecode.sourceMap",
+          "abi",
+          "evm.deployedBytecode",
+          "evm.deployedBytecode.sourceMap",
+          "evm.methodIdentifiers",
+          "evm.gasEstimates"
+        ]
+      }
+    }
+  }
+}
