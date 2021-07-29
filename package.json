@@ -10,6 +10,22 @@
     "lint": "standard ."
   },
   "devDependencies": {
+    "eth-keygen": "^1.0.2",
+    "eth-sign": "^0.3.4",
     "standard": "^16.0.3"
-  }
+  },
+  "name": "vega-locked-erc20",
+  "description": "> VEGA-LOCKED ERC20 contract, conveniently showing locked VEGA tokens",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vegaprotocol/vega-locked-erc20.git"
+  },
+  "author": "Emil Bay <emil@vega.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vegaprotocol/vega-locked-erc20/issues"
+  },
+  "homepage": "https://github.com/vegaprotocol/vega-locked-erc20#readme"
 }

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "name",
+    "type": "function",
+    "stateMutability": "pure",
+    "inputs": [],
+    "outputs": [
+      { "name": "name", "type": "string" }
+    ]
+  },
+  {
+    "name": "symbol",
+    "type": "function",
+    "stateMutability": "pure",
+    "inputs": [],
+    "outputs": [
+      { "name": "symbol", "type": "string" }
+    ]
+  },
+  {
+    "name": "decimals",
+    "type": "function",
+    "stateMutability": "pure",
+    "inputs": [],
+    "outputs": [
+      { "name": "decimals", "type": "uint8" }
+    ]
+  },
+  {
+    "name": "totalSupply",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [
+      { "name": "supply", "type": "uint256" }
+    ]
+  },
+  {
+    "name": "balanceOf",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [
+      { "name": "owner", "type": "address" }
+    ],
+    "outputs": [
+      { "name": "balance", "type": "uint256" }
+    ]
+  }
+]
