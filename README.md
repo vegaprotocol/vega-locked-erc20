@@ -33,7 +33,10 @@ address must be appended to the bytecode as `uint256` (word-size of EVM).
 
 Once the contract is deployed, it adheres to the usual Solidity ABI, except
 for the methods listed above which are not supported. The JSON ABI can be found
-in [`abi.json`](abi.json)
+in [`abi.json`](abi.json).
+
+## Deployment details
+- Ethereum Mainnet: [0x78344c7305d73a7a0ac3c94cd9960f4449a1814e](https://etherscan.io/token/0x78344c7305d73a7a0ac3c94cd9960f4449a1814e)
 
 ## License
 
